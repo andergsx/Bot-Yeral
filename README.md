@@ -14,7 +14,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > pkg install yarn
-> git clone https://github.com/JHONATAN12030/JHONNY-BOT-MD.git
+> git clone https://github.com/andergsx/Bot-Yeral.git
 > cd JHONNY-BOT-MD
 > npm install 
 > npm update
