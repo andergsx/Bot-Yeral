@@ -48,7 +48,8 @@ const defaultMenu = {
 ┗━━◘
 
 ┏━━⊜ *_INFO BOT_* ━⊜
-┃⋄ 👤 *Owner*: @59169989287
+┃⋄ 👤 *Owner*: @51912332440
+┃⋄ 📌 *Bot*: YeralxAnder - Bot 
 ┃⋄ 💻 *Versión*: %version
 ┃⋄ 📊 *Usuarios*: %totalreg
 ┃⋄ 🗃️ *Lib*: Baileys-MD

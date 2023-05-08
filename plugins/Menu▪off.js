@@ -47,7 +47,7 @@ const defaultMenu = {
 ┗━━◘
 
 ┏━━⊜ *_INFO BOT_* ━⊜
-┃⋄ 👤 *Autor*: ⍣ᴊʜᴏɴᴀᴛᴀɴ࿐
+┃⋄ 👤 *Autor*: ⍣Ander࿐
 ┃⋄ 💻 *Versión*: %version
 ┃⋄ 📊 *Usuarios*: %totalreg
 ┃⋄ 🗃️ *Lib*: Baileys-MD
