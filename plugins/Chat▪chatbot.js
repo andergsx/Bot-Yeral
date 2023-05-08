@@ -29,7 +29,7 @@ let texto2B = texto2A.exec(m.text)
 //━━━━━━━◜🍁Respuestas🍁◞━━━━━━━
 if (texto1B) {
 await conn.sendPresenceUpdate('composing', m.chat)
-        conn.reply(m.chat, `Hola @${who.split("@s.whatsapp.net")[0]} soy ⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐ `, fkowner, { mentions: [who]})
+        conn.reply(m.chat, `Hola @${who.split("@s.whatsapp.net")[0]} soy YERANDX - BOT࿐`, fkowner, { mentions: [who]})
         }
        
 if (texto2B) {

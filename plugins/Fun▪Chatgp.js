@@ -12,7 +12,7 @@ if (new Date - db.data.users[m.sender].msgwait < 300000) throw `*_⚠️ • Tie
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let name = await conn.getName(m.sender)
 let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g.us') && chat.isChats && !chat.metadata?.read_only && !chat.metadata?.announce).map(v => v[0])
-let fakegif = { key: {participant: `0@s.whatsapp.net`, ...("6289643739077-1613049930@g.us" ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title": '⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐', "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': '⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐', 'jpegThumbnail': imgfgif }}}
+let fakegif = { key: {participant: `0@s.whatsapp.net`, ...("6289643739077-1613049930@g.us" ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: {"videoMessage": { "title": 'YERANDX - BOT࿐', "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': 'YERANDX - BOT࿐', 'jpegThumbnail': imgfgif }}}
 let teks = `*🌺 • Grupo:* ${groupMetadata.subject}\n*🍀 • De:* @${m.sender.split`@`[0]}\n*🍁 • Número:* wa.me/${who.split`@`[0]}\n*📧 • Mensaje:* ${text}`
 for (let id of groups) {
 await conn.reply(id, teks, m, { mentions: conn.parseMention(teks)})

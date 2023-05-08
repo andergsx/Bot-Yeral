@@ -4,7 +4,7 @@ import { join } from 'path'
 import fetch from 'node-fetch'
 const defaultMenu = {
   before: `
-*┏━「⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐━⊜*
+*┏━「YERANDX - BOT࿐━⊜*
 ┃⋄ 👋 *Hola %taguser!!*
 ┃⋄ 🕒 *Hora*: %time
 ┃⋄ 🗓 *Fecha*: %date
@@ -366,7 +366,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
               "title": "━━◌*̥₊「 25 」₊*̥◌━━"
             }]
           const listMessage = {
-            text: `*┏━「⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐」━⊜*
+            text: `*┏━「YERANDX - BOT࿐」━⊜*
 ┃⋄ 🕒 *Hora*: ${time}
 ┃⋄ 🗓 *Fecha*: ${date}
 ┃⋄ 📅 *Día*: ${week}
@@ -454,8 +454,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, __dirname }) => {
                     showAdAttribution: false,
                     mediaType: 'VIDEO',
                     mediaUrl: 'https://pornhub.com',
-                    title: '⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐',
-                    body: '⍣ᴄʀɪᴡɪʟᴏᴘ࿐',
+                    title: '⍣ʏᴇʀᴀɴᴅx ʙᴏᴛ࿐',
+                    body: '⍣ʏᴇʀᴀɴᴅx ʙᴏᴛ࿐',
                     thumbnail: miniurl,
                     sourceUrl: global.linkgc
                     }}

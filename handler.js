@@ -722,7 +722,7 @@ export async function participantsUpdate({ id, participants, action }) {
                         this.sendButton(id, text, groupMetadata.subject, pp, [
                         [(action == 'add' ? 'Gracias ❤' : 'Adios 👋'), 'ura'],    
                             ['Menú 📒', '/menu']
-                            ], fgclink, { contextInfo: { externalAdReply: { showAdAttribution: false, title: '⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐༉', body: global.botname, sourceUrl: global.linkgc, thumbnail: miniurl }}, mentions: [user]})
+                            ], fgclink, { contextInfo: { externalAdReply: { showAdAttribution: false, title: 'YERANDX - BOT࿐', body: global.botname, sourceUrl: global.linkgc, thumbnail: miniurl }}, mentions: [user]})
                     }
                 }
             }
@@ -748,7 +748,7 @@ export async function participantsUpdate({ id, participants, action }) {
                     let biot = await conn.fetchStatus(user).catch(_ => 'undefined')
   let bio = biot.status?.toString() || 'Sin Info'
             if (chat.detect)
-                this.sendButton(id, text, saludo, pp, [['Menú 📒', '/menu']], false, { contextInfo: { externalAdReply: { showAdAttribution: false, title: '⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐༉', body: global.botname, sourceUrl: global.linkgc, thumbnail: miniurl }}, mentions: this.parseMention(text) })
+                this.sendButton(id, text, saludo, pp, [['Menú 📒', '/menu']], false, { contextInfo: { externalAdReply: { showAdAttribution: false, title: 'YERANDX - BOT࿐', body: global.botname, sourceUrl: global.linkgc, thumbnail: miniurl }}, mentions: this.parseMention(text) })
             break
             }
             }
@@ -801,7 +801,7 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
         let chat = global.db.data.chats[msg.chat] || {}
         if (chat.delete)
             return
-        await conn.relayMessage(msg.chat, { extendedTextMessage: { text: `┏━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━⬣\n┃🐢 *❏ Nombre:* @${participant.split`@`[0]}\n┃🕒 *❏ Hora:* ${time}\n┃📅 *❏ Fecha:* ${date}\n┃🥗 *❏ Enviando mensaje...*\n┗━━━━━━━━━━━━━━━━━⬣`, contextInfo: { externalAdReply: { title: '⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐༉', body: '', thumbnail: verificado, sourceUrl: linkgc }, mentionedJid: [participant] }}}, { quoted: fakemsg })
+        await conn.relayMessage(msg.chat, { extendedTextMessage: { text: `┏━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━⬣\n┃🐢 *❏ Nombre:* @${participant.split`@`[0]}\n┃🕒 *❏ Hora:* ${time}\n┃📅 *❏ Fecha:* ${date}\n┃🥗 *❏ Enviando mensaje...*\n┗━━━━━━━━━━━━━━━━━⬣`, contextInfo: { externalAdReply: { title: 'YERANDX - BOT࿐', body: '', thumbnail: verificado, sourceUrl: linkgc }, mentionedJid: [participant] }}}, { quoted: fakemsg })
         this.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
     } catch (e) {
         console.error(e)
@@ -821,7 +821,7 @@ global.dfail = (type, m, conn) => {
         unreg: '⚠️ *_Regístrese para usar esta función  Escribiendo:_*\n\n• */reg nombre.edad*\n\n*_📌Ejemplo_* : */reg Alberto.16*',
         restrict: '*_¡Esta característica está -deshabilitada-_*'
     }[type]
-    let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐', body: '', thumbnail: miniurl, sourceUrl: script }}}}, { quoted: m })
+    let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: 'YERANDX - BOT࿐', body: '', thumbnail: miniurl, sourceUrl: script }}}}, { quoted: m })
     if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
 }
 

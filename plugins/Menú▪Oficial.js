@@ -32,7 +32,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-*┏━「⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐━⊜*
+*┏━「YERANDX - BOT࿐━⊜*
 ┃⋄ 🕒 *Hora*: %time
 ┃⋄ 🗓 *Fecha*: %date
 ┃⋄ 📅 *Día*: %week
@@ -189,8 +189,8 @@ const defaultMenu = {
                     showAdAttribution: true,
                     mediaType: 'VIDEO',
                     mediaUrl: 'https://pornhub.com',
-                    title: '⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐',
-                    body: '⍣ᴊʜᴏɴᴀᴛᴀɴ࿐',
+                    title: 'YERANDX - BOT࿐',
+                    body: '⍣AnderGiS࿐',
                     thumbnail: miniurl,
                     sourceUrl: global.linkgc
                     }}

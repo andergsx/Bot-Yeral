@@ -1,9 +1,9 @@
 let handler = async (m, { conn }) => {
 let msg = `
-*👋Hola @${m.sender.split`@`[0]} aquí tienes los grupos oficiales de ⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐.*
+*👋Hola @${m.sender.split`@`[0]} aquí tienes los grupos oficiales de ⍣YERANDX - BOT࿐*
 
    *_╭━━━⊜ ⌊• 1 •⌉_*
-  *_┃🎋❏ https://chat.whatsapp.com/L1hwmI0SSFMAmTVWTyOgMW_*
+  *_┃🎋❏ https://chat.whatsapp.com/Hyghlwz556i2CYX3BxaE9n_*
 *_╰━━━━━━━━━━━━━━━━⊜_*
 
 

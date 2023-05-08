@@ -52,7 +52,7 @@ Cuanto quieres apostar?
     }
     users.lastslot = new Date * 1
     let name = await conn.getName(m.sender)
-    let fakemsg = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "17608914335-1625305606@g.us" } : {}) }, message: { "extendedTextMessage": { "text": `${end}\n• ${name}`, "title": '⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐', 'jpegThumbnail': catalogo}}}
+    let fakemsg = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "17608914335-1625305606@g.us" } : {}) }, message: { "extendedTextMessage": { "text": `${end}\n• ${name}`, "title": 'YERANDX - BOT࿐', 'jpegThumbnail': catalogo}}}
     return await conn.reply(m.chat,
         `
   🎰 | *SLOTS* 

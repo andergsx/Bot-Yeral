@@ -31,7 +31,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-*┏━「⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐」━⊜*
+*┏━「YERANDX - BOT࿐」━⊜*
 ┃⋄ 🕒 *Hora*: %time
 ┃⋄ 🗓 *Fecha*: %date
 ┃⋄ 📅 *Día*: %week
