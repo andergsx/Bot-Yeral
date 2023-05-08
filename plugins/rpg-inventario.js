@@ -179,16 +179,16 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 //conn.reply(m.chat, reText(inv), m, { mentions: [who] })
 
 let buttonMessage= {
-'document': { url: `https://github.com/ALBERTO9883` },
+'document': { url: `https://github.com/andergsx` },
 'mimetype': `application/pdf`,
-'fileName': `⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐`,
+'fileName': `\`⍣ʏᴇʀᴀɴᴅx ʙᴏᴛ࿐\``,
 'fileLength': 99999999999999,
 'pageCount': 200,
 'contextInfo': {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com/JHONATAN12030/JHONNY-BOT',
+'mediaUrl': 'https://github.com/andergsx/Bot-Yeral',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': `🎒₊• ̥ 𝗜𝗡𝗩𝗘𝗡𝗧𝗔𝗥𝗜𝗢  •̥₊🎒`,

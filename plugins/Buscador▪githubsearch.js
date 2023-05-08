@@ -25,9 +25,9 @@ return `
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]
 let buttonMessage= {
-'document': { url: `https://github.com/JHONATAN12030` },
+'document': { url: 'https://github.com/andergsx' },
 'mimetype': `application/${document}`,
-'fileName': `⍣𝑱𝑯𝑶𝑵𝑵𝒀_𝘽𝙊𝙏࿐`,
+'fileName': `⍣ʏᴇʀᴀɴᴅx ʙᴏᴛ࿐`,
 'fileLength': 99999999999999,
 'pageCount': 200,
 'contextInfo': {
@@ -40,7 +40,7 @@ let buttonMessage= {
 'title': `• Resultados Encontrados🔎`,
 'body': global.author,
 'thumbnail': await (await fetch(json.items[0].owner.avatar_url)).buffer(),
-'sourceUrl': 'https//wa.me/50499698072'}},
+'sourceUrl': 'https//wa.me/51912332440'}},
 'caption': str,
 'footer': `• 𝚂𝙸 𝙳𝙴𝚂𝙴𝙰 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝚄𝙽\n*𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝙸𝙾 𝙳𝙴 𝙶𝙸𝚃𝙷𝚄𝙱*\n*𝙴𝚂𝙲𝚁𝙸𝙱𝙰 ${usedPrefix}gitclone <LINK>*`,
 'buttons':[

@@ -62,7 +62,7 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com/JHONATAN12030/JHONNY-BOT',
+'mediaUrl': 'https://github.com/andergsx/Bot-Yeral',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': `🌺₊• ̥ 𝗧𝗜𝗘𝗡𝗗𝗔 𝗥𝗣𝗚 •̥₊🌺`,
