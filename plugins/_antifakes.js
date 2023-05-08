@@ -4,7 +4,7 @@ import db from '../lib/database.js'
 let handler = m => m
 
 handler.before = async function (m, { conn, command, MessageType, text, isBotAdmin }) {
-let fproducto2 = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "status@broadcast" } : {})}, message: { "productMessage": { "product": { "productImage":{ "mimetype": "image/jpeg", "jpegThumbnail": catalogo }, "title": `⚠️ANTI-FAKES⛾`, "retailerId": "JHONNY_BOT", "productImageCount": 1 }, "businessOwnerJid": `0@s.whatsapp.net` }}}
+let fproducto2 = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "status@broadcast" } : {})}, message: { "productMessage": { "product": { "productImage":{ "mimetype": "image/jpeg", "jpegThumbnail": catalogo }, "title": `⚠️ANTI-FAKES⛾`, "retailerId": "YERANDX - BOT", "productImageCount": 1 }, "businessOwnerJid": `0@s.whatsapp.net` }}}
 let chat = global.db.data.chats[m.chat]
 let fakebye = `*_👋 Hola @${m.sender.split`@`[0]} por seguridad en este grupo no se permiten números con tú código de área, por lo cual serás eliminado del grupo.⛾_*`
 if (chat.antiFake && isBotAdmin) {
