@@ -1,7 +1,7 @@
 {
-    "name": "Bot-Yeral-MD",
+    "name": "ander-bot",
     "version": "1.0.0",
-    "description": "BOT WHATSAPP - YERANDX",
+    "description": "Si tu quisieras esta noche ir a bailar un chachachá,  yo te puedo enamorar",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -14,16 +14,16 @@
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
-    "homepage": "https://github.com/andergsx/Bot-Yeral",
+    "homepage": "https://github.com/JHONATAN12030/JHONNY-BOT",
     "author": {
-        "name": "Anderson Gil"
+        "name": "Jose Ortiz"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/andergsx/Bot-Yeral-MD.git"
+        "url": "git+https://github.com/JHONATAN12030/JHONNY-BOT-MD.git"
     },
     "bugs": {
-        "url": "https://github.com/andergsx/Bot-Yeralissues"
+        "url": "https://github.com/JHONATAN12030/JHONNY-BOTissues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
