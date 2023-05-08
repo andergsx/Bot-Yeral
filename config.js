@@ -116,7 +116,7 @@ global.verificado = fs.readFileSync('./storage/image/verificado.png')
 
 
 //᭥🌿᭢━━━━━━━◜𝑳𝑰𝑵𝑲𝑺◞━━━━━━━᭥🌿᭢
-global.linkgc = ''
+global.linkgc = 'https://chat.whatsapp.com/EMD8qfxvSge9wKDZUc0ILa'
 global.nycuser = 'https://github.com/ALBERTO9883'
 global.script = 'https://github.com/ALBERTO9883/NyanCatBot-MD'
 //╰─────────────────────╯
